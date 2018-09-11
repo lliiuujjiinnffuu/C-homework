@@ -1,0 +1,7 @@
+D:\GitHub\homework1\Program1\bin\Debug\Program1.exe.config
+D:\GitHub\homework1\Program1\bin\Debug\Program1.exe
+D:\GitHub\homework1\Program1\bin\Debug\Program1.pdb
+D:\GitHub\homework1\Program1\obj\Debug\Program1.csprojAssemblyReference.cache
+D:\GitHub\homework1\Program1\obj\Debug\Program1.csproj.CoreCompileInputs.cache
+D:\GitHub\homework1\Program1\obj\Debug\Program1.exe
+D:\GitHub\homework1\Program1\obj\Debug\Program1.pdb
