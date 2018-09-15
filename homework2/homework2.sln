@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program1", "Program1\Program1.csproj", "{D3A11E5D-28B2-4AE3-A88E-EBD003174F6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program2", "Program2\Program2.csproj", "{30377BF2-085C-4E7A-818D-44B89FB9F0FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program3", "Program3\Program3.csproj", "{38E2060F-7CE8-40DA-8897-4B9F0A0DAF5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3A11E5D-28B2-4AE3-A88E-EBD003174F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A11E5D-28B2-4AE3-A88E-EBD003174F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A11E5D-28B2-4AE3-A88E-EBD003174F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A11E5D-28B2-4AE3-A88E-EBD003174F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30377BF2-085C-4E7A-818D-44B89FB9F0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30377BF2-085C-4E7A-818D-44B89FB9F0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30377BF2-085C-4E7A-818D-44B89FB9F0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30377BF2-085C-4E7A-818D-44B89FB9F0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E2060F-7CE8-40DA-8897-4B9F0A0DAF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E2060F-7CE8-40DA-8897-4B9F0A0DAF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E2060F-7CE8-40DA-8897-4B9F0A0DAF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E2060F-7CE8-40DA-8897-4B9F0A0DAF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F1A779C-86E2-469A-A814-43A9788FBA84}
+	EndGlobalSection
+EndGlobal
