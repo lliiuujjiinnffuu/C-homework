@@ -10,25 +10,25 @@ namespace Program3
     {
         static void Main(string[] args)
         {
-            Console.Write("2到100的素数有: ");
-            for (int i = 2; i <=100; i++)
+            List<int> primeArray = new List<int>(99);
+            for (int i = 2; i < 100; i++)
             {
-                int factor = 2;
-                while (factor<=i)
+                primeArray.Add(i);
+            }
+            for (int i = 2; i <=50; i++)
+            {
+                for (int j = 0; j < primeArray.Count; j++)
                 {
-                    if (i==factor)
+                    if (primeArray[j]%i==0&&primeArray[j]!=i)
                     {
-                        Console.Write(i+" ");
-                    }
-                    if (i%factor!=0)
-                    {
-                        factor++;
-                    }
-                    else
-                    {
-                        break;
+                        primeArray.RemoveAt(j);
                     }
                 }
+            }
+            Console.Write("2到100的素数有: ");
+            foreach (int p in primeArray)
+            {
+                Console.Write(p+" ");
             }
             Console.WriteLine();
         }
